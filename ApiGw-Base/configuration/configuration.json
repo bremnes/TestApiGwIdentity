@@ -10,7 +10,11 @@
         }
       ],
       "UpstreamPathTemplate": "/{url}",
-      "UpstreamHttpMethod": []
+      "UpstreamHttpMethod": [],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": [ "externalCrmSystem" ]
+      }
     }
   ],
   "GlobalConfiguration": {
